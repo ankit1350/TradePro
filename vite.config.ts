@@ -7,4 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // 👇 IMPORTANT for GitHub Pages
+  base: "/TradePro/",
 });
